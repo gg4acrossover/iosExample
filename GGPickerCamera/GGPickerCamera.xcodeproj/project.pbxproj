@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD65E22C1AAD770000C23ECD /* play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD65E22B1AAD770000C23ECD /* play@2x.png */; };
+		DDF8F4371A8C883700DB956B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF8F4361A8C883700DB956B /* main.m */; };
+		DDF8F43A1A8C883700DB956B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF8F4391A8C883700DB956B /* AppDelegate.m */; };
+		DDF8F43D1A8C883700DB956B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF8F43C1A8C883700DB956B /* ViewController.m */; };
+		DDF8F4401A8C883700DB956B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDF8F43E1A8C883700DB956B /* Main.storyboard */; };
+		DDF8F4421A8C883700DB956B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDF8F4411A8C883700DB956B /* Images.xcassets */; };
+		DDF8F4451A8C883700DB956B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDF8F4431A8C883700DB956B /* LaunchScreen.xib */; };
+		DDF8F4511A8C883700DB956B /* GGPickerCameraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF8F4501A8C883700DB956B /* GGPickerCameraTests.m */; };
+		DDF8F45B1A8C8F6100DB956B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF8F45A1A8C8F6100DB956B /* AVFoundation.framework */; };
+		DDF8F45D1A8C8F7F00DB956B /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF8F45C1A8C8F7F00DB956B /* CoreMedia.framework */; };
+		DDF8F45F1A8C8F8E00DB956B /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF8F45E1A8C8F8E00DB956B /* AssetsLibrary.framework */; };
+		DDF8F4611A8C8FA600DB956B /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF8F4601A8C8FA600DB956B /* MediaPlayer.framework */; };
+		DDF8F4631A8C8FB300DB956B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF8F4621A8C8FB300DB956B /* QuartzCore.framework */; };
+		DDF8F4651A8C8FDF00DB956B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF8F4641A8C8FDF00DB956B /* MobileCoreServices.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDF8F44B1A8C883700DB956B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDF8F4291A8C883700DB956B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDF8F4301A8C883700DB956B;
+			remoteInfo = GGPickerCamera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD65E22B1AAD770000C23ECD /* play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play@2x.png"; sourceTree = "<group>"; };
+		DDF8F4311A8C883700DB956B /* GGPickerCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GGPickerCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDF8F4351A8C883700DB956B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDF8F4361A8C883700DB956B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDF8F4381A8C883700DB956B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DDF8F4391A8C883700DB956B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DDF8F43B1A8C883700DB956B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DDF8F43C1A8C883700DB956B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DDF8F43F1A8C883700DB956B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDF8F4411A8C883700DB956B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DDF8F4441A8C883700DB956B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DDF8F44A1A8C883700DB956B /* GGPickerCameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GGPickerCameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDF8F44F1A8C883700DB956B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDF8F4501A8C883700DB956B /* GGPickerCameraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGPickerCameraTests.m; sourceTree = "<group>"; };
+		DDF8F45A1A8C8F6100DB956B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DDF8F45C1A8C8F7F00DB956B /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		DDF8F45E1A8C8F8E00DB956B /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		DDF8F4601A8C8FA600DB956B /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		DDF8F4621A8C8FB300DB956B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DDF8F4641A8C8FDF00DB956B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDF8F42E1A8C883700DB956B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF8F4651A8C8FDF00DB956B /* MobileCoreServices.framework in Frameworks */,
+				DDF8F4631A8C8FB300DB956B /* QuartzCore.framework in Frameworks */,
+				DDF8F4611A8C8FA600DB956B /* MediaPlayer.framework in Frameworks */,
+				DDF8F45F1A8C8F8E00DB956B /* AssetsLibrary.framework in Frameworks */,
+				DDF8F45D1A8C8F7F00DB956B /* CoreMedia.framework in Frameworks */,
+				DDF8F45B1A8C8F6100DB956B /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDF8F4471A8C883700DB956B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD65E22A1AAD770000C23ECD /* src */ = {
+			isa = PBXGroup;
+			children = (
+				DD65E22B1AAD770000C23ECD /* play@2x.png */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		DDF8F4281A8C883700DB956B = {
+			isa = PBXGroup;
+			children = (
+				DDF8F4641A8C8FDF00DB956B /* MobileCoreServices.framework */,
+				DDF8F4621A8C8FB300DB956B /* QuartzCore.framework */,
+				DDF8F4601A8C8FA600DB956B /* MediaPlayer.framework */,
+				DDF8F45E1A8C8F8E00DB956B /* AssetsLibrary.framework */,
+				DDF8F45C1A8C8F7F00DB956B /* CoreMedia.framework */,
+				DDF8F45A1A8C8F6100DB956B /* AVFoundation.framework */,
+				DDF8F4331A8C883700DB956B /* GGPickerCamera */,
+				DDF8F44D1A8C883700DB956B /* GGPickerCameraTests */,
+				DDF8F4321A8C883700DB956B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDF8F4321A8C883700DB956B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDF8F4311A8C883700DB956B /* GGPickerCamera.app */,
+				DDF8F44A1A8C883700DB956B /* GGPickerCameraTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDF8F4331A8C883700DB956B /* GGPickerCamera */ = {
+			isa = PBXGroup;
+			children = (
+				DD65E22A1AAD770000C23ECD /* src */,
+				DDF8F4381A8C883700DB956B /* AppDelegate.h */,
+				DDF8F4391A8C883700DB956B /* AppDelegate.m */,
+				DDF8F43B1A8C883700DB956B /* ViewController.h */,
+				DDF8F43C1A8C883700DB956B /* ViewController.m */,
+				DDF8F43E1A8C883700DB956B /* Main.storyboard */,
+				DDF8F4411A8C883700DB956B /* Images.xcassets */,
+				DDF8F4431A8C883700DB956B /* LaunchScreen.xib */,
+				DDF8F4341A8C883700DB956B /* Supporting Files */,
+			);
+			path = GGPickerCamera;
+			sourceTree = "<group>";
+		};
+		DDF8F4341A8C883700DB956B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDF8F4351A8C883700DB956B /* Info.plist */,
+				DDF8F4361A8C883700DB956B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDF8F44D1A8C883700DB956B /* GGPickerCameraTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDF8F4501A8C883700DB956B /* GGPickerCameraTests.m */,
+				DDF8F44E1A8C883700DB956B /* Supporting Files */,
+			);
+			path = GGPickerCameraTests;
+			sourceTree = "<group>";
+		};
+		DDF8F44E1A8C883700DB956B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDF8F44F1A8C883700DB956B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDF8F4301A8C883700DB956B /* GGPickerCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDF8F4541A8C883700DB956B /* Build configuration list for PBXNativeTarget "GGPickerCamera" */;
+			buildPhases = (
+				DDF8F42D1A8C883700DB956B /* Sources */,
+				DDF8F42E1A8C883700DB956B /* Frameworks */,
+				DDF8F42F1A8C883700DB956B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GGPickerCamera;
+			productName = GGPickerCamera;
+			productReference = DDF8F4311A8C883700DB956B /* GGPickerCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDF8F4491A8C883700DB956B /* GGPickerCameraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDF8F4571A8C883700DB956B /* Build configuration list for PBXNativeTarget "GGPickerCameraTests" */;
+			buildPhases = (
+				DDF8F4461A8C883700DB956B /* Sources */,
+				DDF8F4471A8C883700DB956B /* Frameworks */,
+				DDF8F4481A8C883700DB956B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDF8F44C1A8C883700DB956B /* PBXTargetDependency */,
+			);
+			name = GGPickerCameraTests;
+			productName = GGPickerCameraTests;
+			productReference = DDF8F44A1A8C883700DB956B /* GGPickerCameraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDF8F4291A8C883700DB956B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = viethq;
+				TargetAttributes = {
+					DDF8F4301A8C883700DB956B = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					DDF8F4491A8C883700DB956B = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = DDF8F4301A8C883700DB956B;
+					};
+				};
+			};
+			buildConfigurationList = DDF8F42C1A8C883700DB956B /* Build configuration list for PBXProject "GGPickerCamera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDF8F4281A8C883700DB956B;
+			productRefGroup = DDF8F4321A8C883700DB956B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDF8F4301A8C883700DB956B /* GGPickerCamera */,
+				DDF8F4491A8C883700DB956B /* GGPickerCameraTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDF8F42F1A8C883700DB956B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF8F4401A8C883700DB956B /* Main.storyboard in Resources */,
+				DDF8F4451A8C883700DB956B /* LaunchScreen.xib in Resources */,
+				DD65E22C1AAD770000C23ECD /* play@2x.png in Resources */,
+				DDF8F4421A8C883700DB956B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDF8F4481A8C883700DB956B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDF8F42D1A8C883700DB956B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF8F43D1A8C883700DB956B /* ViewController.m in Sources */,
+				DDF8F43A1A8C883700DB956B /* AppDelegate.m in Sources */,
+				DDF8F4371A8C883700DB956B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDF8F4461A8C883700DB956B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF8F4511A8C883700DB956B /* GGPickerCameraTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDF8F44C1A8C883700DB956B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDF8F4301A8C883700DB956B /* GGPickerCamera */;
+			targetProxy = DDF8F44B1A8C883700DB956B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDF8F43E1A8C883700DB956B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDF8F43F1A8C883700DB956B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDF8F4431A8C883700DB956B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDF8F4441A8C883700DB956B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDF8F4521A8C883700DB956B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDF8F4531A8C883700DB956B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDF8F4551A8C883700DB956B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GGPickerCamera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DDF8F4561A8C883700DB956B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GGPickerCamera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DDF8F4581A8C883700DB956B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GGPickerCameraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GGPickerCamera.app/GGPickerCamera";
+			};
+			name = Debug;
+		};
+		DDF8F4591A8C883700DB956B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GGPickerCameraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GGPickerCamera.app/GGPickerCamera";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDF8F42C1A8C883700DB956B /* Build configuration list for PBXProject "GGPickerCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDF8F4521A8C883700DB956B /* Debug */,
+				DDF8F4531A8C883700DB956B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDF8F4541A8C883700DB956B /* Build configuration list for PBXNativeTarget "GGPickerCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDF8F4551A8C883700DB956B /* Debug */,
+				DDF8F4561A8C883700DB956B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDF8F4571A8C883700DB956B /* Build configuration list for PBXNativeTarget "GGPickerCameraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDF8F4581A8C883700DB956B /* Debug */,
+				DDF8F4591A8C883700DB956B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDF8F4291A8C883700DB956B /* Project object */;
+}
